@@ -2,11 +2,11 @@
 
 ## Novel Cryptocurrency Price Prediction Framework for B.Tech Major Project
 
-### 🎯 Project Overview
+### Project Overview
 
 MCANU-Net is a **completely novel** deep learning architecture for cryptocurrency price prediction that addresses the limitations of existing approaches. This project introduces **7 major novelties** that have not been combined in any published research paper.
 
-### 🚀 Key Novelties
+### Key Novelties
 
 1. **Multi-Modal Integration**: Combines 4 different data modalities (price, sentiment, on-chain metrics, macroeconomic indicators)
 2. **Temporal Causal Discovery**: Novel neural layer that learns temporal cause-effect relationships dynamically
@@ -16,7 +16,7 @@ MCANU-Net is a **completely novel** deep learning architecture for cryptocurrenc
 6. **Meta-Learning Adaptation**: MAML-based framework for rapid adaptation to new market regimes
 7. **Multi-Task Learning**: Simultaneously predicts price, volatility, and market regime
 
-### 📊 Architecture Components
+### Architecture Components
 
 ```
 Input Layer (Multi-Modal)
@@ -46,7 +46,7 @@ Multi-Task Output
     └── Regime Classification
 ```
 
-### 🔬 Research Gaps Addressed
+### Research Gaps Addressed
 
 | Gap | Existing Literature | MCANU-Net Solution |
 |-----|--------------------|--------------------|
@@ -57,7 +57,7 @@ Multi-Task Output
 | No adaptation | One-time training | Meta-learning for regimes |
 | Single task | Only price prediction | Multi-task: price + vol + regime |
 
-### 💻 Installation
+### Installation
 
 ```bash
 # Clone repository
@@ -72,7 +72,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 📝 Quick Start
+### Quick Start
 
 #### 1. Data Collection
 ```bash
@@ -92,7 +92,7 @@ python inference.py
 ```
 Performs predictions with uncertainty quantification and generates visualizations.
 
-### 📁 Project Structure
+### Project Structure
 
 ```
 mcanu-net/
@@ -130,7 +130,7 @@ mcanu-net/
 6. **Uncertainty Separation**: Epistemic + aleatoric uncertainty for crypto (rare)
 7. **End-to-End Framework**: Complete pipeline from data to inference
 
-### 📊 Expected Results
+### Expected Results
 
 Based on literature benchmarks:
 - **Baseline (CNN/LSTM)**: RMSE ~0.08-0.12
@@ -138,7 +138,7 @@ Based on literature benchmarks:
 - **Uncertainty Coverage**: 90-95% (actuals within confidence intervals)
 - **Regime Classification**: 75-85% accuracy
 
-### 🔧 Configuration
+### Configuration
 
 Edit `config.py` to customize:
 - Cryptocurrencies to analyze
@@ -147,7 +147,7 @@ Edit `config.py` to customize:
 - Data sources
 - Meta-learning settings
 
-### 📚 References
+### References
 
 Key papers that inspired components (but NOT the complete architecture):
 
@@ -162,11 +162,11 @@ Key papers that inspired components (but NOT the complete architecture):
 **Note**: No paper combines all these techniques for cryptocurrency prediction.
 
 
-### 📧 Contact
+### Contact
 
 For questions or issues, please open an issue on the repository.
 
-### 📄 License
+### License
 
 MIT License - See LICENSE file for details
 
